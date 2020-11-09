@@ -1,0 +1,38 @@
+.all{
+    border: 1px solid green;
+    background-color: aqua;
+    display: flex;
+}
+.bisque{
+    width: 1500px;
+    height: 50px;
+    background-color: bisque;
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: left;
+}
+.darkgray{
+    background-color: darkgrey;
+    margin: 0;
+    font-size: 12px;
+    height: 600px;
+    position: relative;
+}
+.niz{
+    bottom: 0;
+    clear: both;
+}
+
+img{
+    width: 510px;
+    float: right;
+}
+
+@media screen and (max-width: 1200px){
+    img{
+        width: 50%;
+    }
+}
+

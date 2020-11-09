@@ -1,0 +1,43 @@
+.all{
+    border: 1px solid green;
+    background-color: aqua;
+    font-size: 12px;
+}
+.bisque{
+    float: left;
+    background-color: bisque;
+    height: 6em;
+    width: 28%;
+    box-sizing: border-box;
+
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.darkgray{
+    background-color: darkgrey;
+    margin-left: 28%;
+}
+
+@media screen and (max-width: 575px){
+    .darkgray{
+        clear: both;
+        margin-top: 5em;
+        width: 100%;
+        margin-left: 0;
+        
+    }
+    .bisque{
+        width: 100%;
+        display: flex;
+        list-style-type: none;
+        height: min-content;
+        margin: 22px 0;
+        padding: 0;
+    }
+    li{
+        padding: 0 5px;
+    }
+}
+
